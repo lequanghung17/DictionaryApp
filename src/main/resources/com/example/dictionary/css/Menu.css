@@ -1,0 +1,30 @@
+.btn {
+    -fx-background-color: #3D5384;
+    -fx-background-radius: 30%;
+    -fx-pref-width: 117px;
+    -fx-pref-height: 117px;
+    
+}
+.btn:hover{
+    -fx-background-color: #F36466;
+    -fx-pref-width: 117px;
+    -fx-pref-height: 117px;
+}
+.popBTN{
+    -fx-background-color: #3D5384;
+
+    -fx-background-radius: 10%;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 117px;
+
+}
+
+.popBTN:hover {
+
+    -fx-background-radius: 10%;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 117px;
+
+}
+
+

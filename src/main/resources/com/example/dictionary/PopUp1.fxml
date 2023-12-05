@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.Controller.PopUp1Control">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../Image/Button/Background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="close" layoutX="237.0" layoutY="299.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="127.0" styleClass="add" stylesheets="@css/ChinhSua.css" text="Đóng" textFill="WHITE" />
+      <Text fill="#3d5384" fontSmoothingType="LCD" layoutX="127.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chỉnh sửa thành công !" wrappingWidth="377.21630859375">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

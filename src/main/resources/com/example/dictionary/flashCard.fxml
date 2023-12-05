@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="668.0" prefWidth="1000.0" stylesheets="Flashcard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.Controller.FlashcardControl">
+   <children>
+      <ImageView fx:id="background" fitHeight="800.0" fitWidth="1000.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/Button/Background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="DICHVANBANBUTTON" layoutX="465.0" layoutY="550.0" minWidth="46.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" styleClass="btn" stylesheets="@css/TraTu.css" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="49.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/Paragraph.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="GAMEBUTTON" layoutX="85.0" layoutY="550.0" minWidth="7.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="btn" stylesheets="@css/TraTu.css" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="76.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/Game.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="THONGKEBUTTON" alignment="TOP_CENTER" layoutX="204.0" layoutY="543.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="mainbtn" stylesheets="@css/TraTu.css" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/flashcard.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="LICHSUBUTTON" layoutX="340.0" layoutY="550.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="btn" stylesheets="@css/TraTu.css" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/History.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="CHINHSUABUTTON" layoutX="595.0" layoutY="550.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="btn" stylesheets="@css/TraTu.css" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/Fix.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="TRATUBUTTON" layoutX="727.0" layoutY="550.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="btn" stylesheets="@css/TraTu.css" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/Search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="HUONGDANBUTTON" layoutX="870.0" layoutY="550.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="btn" stylesheets="@css/TraTu.css" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Image/Button/Instruction.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="BACKTOMENU" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="50.0" style="-fx-background-color: transfer;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="50.0">
+               <image>
+                  <Image url="@../../../Image/Button/Arrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="NextButton" layoutX="827.0" layoutY="275.0" mnemonicParsing="false" prefHeight="7.0" prefWidth="86.0" style="-fx-background-color: #3D5384;" text="NEXT" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="96.0" layoutY="288.0" mnemonicParsing="false" prefHeight="7.0" prefWidth="86.0" style="-fx-background-color: #3D5384;" text="BACK" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <WebView fx:id="flashcard" layoutX="284.0" layoutY="48.0" prefHeight="486.0" prefWidth="448.0" />
+   </children>
+</AnchorPane>

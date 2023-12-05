@@ -1,0 +1,22 @@
+.mainbtn
+{
+    -fx-background-color: #F36466;
+    -fx-background-radius:100pt;
+    -fx-border-radius:100pt;
+    -fx-alignment:center;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 100px;
+}
+
+.btn
+{
+    -fx-background-color: #3D5384;
+    -fx-background-radius:100pt;
+    -fx-border-radius:100pt;
+    -fx-alignment:center;
+    -fx-pref-width: 85px;
+    -fx-pref-height: 85px;
+}
+.btn:hover{
+    -fx-background-color: #F36466;
+}

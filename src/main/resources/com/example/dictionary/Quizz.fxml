@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="668.0" maxWidth="1000.0" minHeight="668.0" minWidth="1000.0" prefHeight="668.0" prefWidth="10000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dictionary.Controller.QuizzControl">
+   <children>
+      <ImageView fx:id="background" fitHeight="703.0" fitWidth="1010.0" layoutY="-35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/Button/QuizzBG.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D width="1000.0" />
+         </viewport>
+      </ImageView>
+      <Label fx:id="questionLabel" alignment="CENTER" layoutX="212.0" layoutY="149.0" prefHeight="89.0" prefWidth="574.0" textFill="#b6e411" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="optionA" layoutX="113.0" layoutY="358.0" mnemonicParsing="false" onAction="#optionAchosen" prefHeight="61.0" prefWidth="355.0" style="-fx-background-color: rgba;" textFill="#00ffc3" />
+      <Button fx:id="optionC" layoutX="113.0" layoutY="497.0" mnemonicParsing="false" onAction="#optionBchosen" prefHeight="54.0" prefWidth="355.0" style="-fx-background-color: rgba;" textFill="#00ffc3" />
+      <Button fx:id="optionD" layoutX="531.0" layoutY="497.0" mnemonicParsing="false" onAction="#optionCchosen" prefHeight="54.0" prefWidth="355.0" style="-fx-background-color: rgba;" textFill="#00ffc3" />
+      <Button fx:id="optionB" layoutX="531.0" layoutY="361.0" mnemonicParsing="false" onAction="#optionDchosen" prefHeight="54.0" prefWidth="355.0" style="-fx-background-color: rgba;" textFill="#00ffc3" />
+      <Button fx:id="Back" layoutX="469.0" layoutY="620.0" mnemonicParsing="false" style="-fx-background-color: rgba; -fx-border-color: #96bacc; -fx-border-radius: 8px; -fx-border-width: 1mm;" text="Back" textFill="#5392b1" />
+   </children>
+</AnchorPane>
+
